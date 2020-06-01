@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="activity_form">
+
+    <item
+
+        android:id="@+id/frag1"
+        android:title="Apartment Information" />
+    <item
+
+        android:id="@+id/frag2"
+        android:title="Living room/Dining Room" />
+    <item
+
+        android:id="@+id/frag3"
+        android:title="Outside/Inside Entrance" />
+
+    <item
+
+        android:id="@+id/frag4"
+        android:title="Laundry Room" />
+    <item
+
+        android:id="@+id/frag5"
+        android:title="Utility/Water heater room" />
+
+
+
+    <!--   fix these-->
+    <item
+        android:id="@+id/frag6"
+        android:title="Bedroom 1/Master" />
+    <item
+
+        android:id="@+id/frag7"
+        android:title="Bathroom 1/Master" />
+    <item
+
+        android:id="@+id/frag8"
+        android:title="Bedroom 2" />
+    <item
+
+        android:id="@+id/frag9"
+        android:title="Bathroom 2" />
+    <item
+
+        android:id="@+id/frag10"
+        android:title="Bedroom 3" />
+    <item
+
+        android:id="@+id/frag11"
+        android:title="Bathroom 3" />
+    <item
+
+        android:id="@+id/frag12"
+        android:title="Kitchen" />
+    <item
+
+        android:id="@+id/frag13"
+        android:title="Valet Trash Can" />
+    <item
+
+        android:id="@+id/frag14"
+        android:title="Patio/Balcony" />
+    <item
+
+        android:id="@+id/frag15"
+        android:title="Summary" />
+
+
+
+</menu>

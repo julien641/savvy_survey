@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
+    android:layout_margin="20px"
+    android:orientation="vertical"
+    tools:context="layout.form_frag_3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/OutsideInsideEntrance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Outside/Inside Entrance"
+
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="100px" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20px">
+
+
+
+
+
+
+        <CheckBox
+            android:id="@+id/entrencecheck1"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/cobwebs_around_entrance_exterior"
+
+            android:textAlignment="viewStart"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <CheckBox
+
+            android:id="@+id/entrencecheck2"
+            android:layout_width="match_parent"
+
+            android:layout_height="52dp"
+            android:text="Dirty/Dusty outside door/Clean threshold"
+            android:textColor="@color/darkblue"
+            android:textColorLink="@color/middle_blue"
+            android:textSize="50px" />
+        <CheckBox
+            android:id="@+id/entrencecheck3"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dusty alarm box"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/entrencecheck4"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/dirty_light_switch"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+
+
+        <CheckBox
+            android:id="@+id/entrencecheck5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dusty Thermostat/Temperature to weather appropriate"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/entrencecheck6"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/dirty_exterior_light_fixture"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+
+
+        <CheckBox
+            android:id="@+id/entrencecheck7"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/dirty_entrance_foyer_floor"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/entrencecheck8"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dusty desk top/dirty desk drawer and cabinet"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/entrencecheck9"
+            android:layout_width="match_parent"
+
+            android:layout_height="52dp"
+            android:text="No touch ups needed"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <EditText
+            android:id="@+id/entrence_edit1"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/others"
+            android:inputType="textPersonName"
+            android:textSize="50px" />
+
+
+        <ToggleButton
+            android:id="@+id/entrence_toggle"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+
+
+            android:textColor="@color/darkblue"
+            android:textOff="Touch ups needed"
+            android:textOn="@string/no_touch_ups_needed"
+            android:textSize="50px"
+            tools:text="No touch ups needed" />
+
+    </RadioGroup>
+</LinearLayout>

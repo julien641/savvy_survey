@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="layout.form_frag_4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_margin="20px"
+    android:background="@drawable/shape"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laundry room"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/dark_blue"
+        android:textSize="100px"
+
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:id="@+id/Laundryroom_check1"
+            android:layout_width="match_parent"
+
+            android:layout_height="52dp"
+            android:text="Dusty/dirty Shelves"
+            android:textColor="@color/darkblue"
+
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/Laundryroom_check2"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/dirty_dusty_floor"
+            android:textColor="@color/darkblue"
+
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/Laundryroom_check3"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dirty faucet/hook ups"
+            android:textColor="@color/darkblue"
+
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/Laundryroom_check4"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dirty light switch and/or outlet"
+            android:textColor="@color/darkblue"
+
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/Laundryroom_check5"
+            android:layout_width="match_parent"
+
+            android:layout_height="52dp"
+            android:text="No touch ups needed"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <EditText
+            android:id="@+id/Laundryroom_edit1"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/others"
+            android:inputType="textPersonName"
+            android:textSize="50px" />
+
+
+        <ToggleButton
+            android:id="@+id/Laundryroom_toggle"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+
+
+            android:textColor="@color/darkblue"
+            android:textOff="Touch ups needed"
+            android:textOn="@string/no_touch_ups_needed"
+            android:textSize="50px"
+            tools:text="No touch ups needed" />
+    </RadioGroup>
+
+
+
+</LinearLayout>

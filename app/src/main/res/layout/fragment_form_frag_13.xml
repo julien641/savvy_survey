@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20px"
+    android:background="@drawable/shape"
+    android:orientation="vertical"
+    tools:context="layout.form_frag_13">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valet Trash Can"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/dark_blue"
+        android:textSize="100px" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <CheckBox
+            android:id="@+id/can_0"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dirt inside trash can"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <CheckBox
+            android:id="@+id/can_1"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dirty outside trash can"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <CheckBox
+            android:id="@+id/can_2"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="No touch up needed"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/can_3"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="others"
+                android:textColor="@color/darkblue"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/can_4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+        </TableRow>
+
+    </RadioGroup>
+
+</LinearLayout>

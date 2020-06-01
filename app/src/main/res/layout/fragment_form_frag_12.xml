@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20px"
+    android:background="@drawable/shape"
+    android:orientation="vertical"
+    tools:context="layout.form_frag_12">
+
+<TextView
+    android:id="@+id/textView14"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Kitchen"
+    android:textAlignment="center"
+    android:textAllCaps="false"
+    android:textColor="@color/dark_blue"
+    android:textSize="100px" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <CheckBox
+        android:id="@+id/kitchen_0"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty Drawer(s)"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_1"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty Cabinet(s)"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_2"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty freezer"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_3"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty Refrigerator"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_4"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty behind/outside fridge"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_5"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty Inside the oven"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_6"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty under the oven"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_7"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty inside oven drawer"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_8"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty stove top"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_9"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty Backsplash"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_10"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty Rangehood"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_11"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty microwave"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_12"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty Kitchen sink"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_13"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty Counter tops"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_14"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty Dishwasher"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+    <CheckBox
+        android:id="@+id/kitchen_15"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dirty floor"
+        android:textColor="@color/darkblue"
+        android:textSize="50px" />
+
+    </RadioGroup>
+</LinearLayout>

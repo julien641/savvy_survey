@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20px"
+    android:background="@drawable/shape"
+    android:orientation="vertical"
+
+    tools:context="layout.form_frag_5">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Utility/water heater room"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="100px" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <CheckBox
+            android:id="@+id/utilitycheck1"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="dusty door / doorway / door frame"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/utilitycheck2"
+            android:layout_width="match_parent"
+
+            android:layout_height="52dp"
+            android:text="@string/cob_webs_and_dust_on_walls_and_ceiling"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/utilitycheck3"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dusty/dirty register vent"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/utilitycheck4"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="No touch ups"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/utilitycheck5"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="others"
+                android:textColor="@color/darkblue"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/utilityedit1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+        </TableRow>
+
+    </RadioGroup>
+
+</LinearLayout>

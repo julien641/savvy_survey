@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20px"
+    android:background="@drawable/shape"
+    android:orientation="vertical"
+    tools:context="layout.form_frag_6">
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Bedroom 1/ Master"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="100px" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+
+        <CheckBox
+            android:id="@+id/bedroom1_0"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dusty ceiling fan"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <CheckBox
+            android:id="@+id/bedroom1_1"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dust/cobweb on ceiling"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <CheckBox
+            android:id="@+id/bedroom1_2"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dusty baseboard"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <CheckBox
+            android:id="@+id/bedroom1_3"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dusty door/door frame"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <CheckBox
+            android:id="@+id/bedroom1_4"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dusty blinds"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <CheckBox
+            android:id="@+id/bedroom1_5"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dusty window sill"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <CheckBox
+            android:id="@+id/bedroom1_6"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dirty/ streaky window"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <CheckBox
+            android:id="@+id/bedroom1_7"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dirty light switch plate"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <CheckBox
+            android:id="@+id/bedroom1_8"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Floor dirty/ not vacuumed in straight lines"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+        <CheckBox
+            android:id="@+id/bedroom1_9"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Furniture dusty inside or out"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/bedroom1_10"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="No touch ups"
+            android:textColor="@color/darkblue"
+            android:textSize="50px" />
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/bedroom1_11"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="others"
+                android:textColor="@color/darkblue"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/bedroom1_12"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+        </TableRow>
+    </RadioGroup>
+</LinearLayout>

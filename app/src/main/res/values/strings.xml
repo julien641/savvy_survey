@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Savvy Survey</string>
+    <string name="form_description">Form Description</string>
+    <string name="apartment_information">Apartment Information</string>
+    <string name="apartment_number_building_number_if_applicable">Apartment Number(building number if applicable)</string>
+    <string name="beginning_time">Beginning Time</string>
+    <string name="short_answer_text">Short answer text</string>
+    <string name="shortanswer_text">Short answer text</string>
+
+    <string-array name="SIZE">
+        <item>size</item>
+        <item>studio</item>
+        <item>1 bed /1 bath</item>
+        <item>Marganton Place 1 bed/1 bath front laundry</item>
+        <item>Morganton Place 1 bed / 1 bath hallway Laundry</item>
+        <item>1 bed / 2 bath</item>
+        <item>2 bed / 1 bath</item>
+        <item>2 bed / 2 bath</item>
+        <item>2 bed/ 2 bath/study</item>
+        <item>2 bed / 2 and 1/2 bath</item>
+        <item>3 bed / 3 bath</item>
+    </string-array>
+    <string-array name="location">
+        <item>location</item>
+        <item>Autumn View apartments</item>
+        <item>Buckhead Apartments</item>
+        <item>Austin Creek Apartments</item>
+        <item>Morganton Place Apartments</item>
+        <item>Independence Place</item>
+        <item>The Astoria Apartments</item>
+        <item>South Main Apartments</item>
+        <item>Village at Cliffdale</item>
+        <item>Crescent Commons</item>
+        <item>West Park</item>
+        <item>Wayside</item>
+        <item>Summerlyn Cottages</item>
+        <item>Village on the lake</item>
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="appartment_number">Appartment number</string>
+    <string name="cob_webs_and_dust_on_walls_and_ceiling">Cob webs and dust on walls and ceiling</string>
+    <string name="cobwebs_around_entrance_exterior">Cobwebs around entrance exterior</string>
+    <string name="dirty_dusty_floor">Dirty / dusty floor</string>
+    <string name="others">others</string>
+    <string name="dirty_entrance_foyer_floor">Dirty Entrance/foyer floor</string>
+    <string name="dirty_light_switch_and_or_outlet">Dirty Light switch and/or outlet</string>
+    <string name="dirty_light_switch">Dirty Light switch</string>
+    <string name="dirty_ceiling_vent_s">Dirty ceiling vent (s)</string>
+    <string name="dirty_exterior_light_fixture">Dirty exterior light fixture</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="living_room_dining_room">Living room/Dining Room</string>
+    <string name="dusty_baseboards">Dusty baseboards</string>
+    <string name="no_touch_ups_needed">No touch ups needed</string>
+
+
+</resources>

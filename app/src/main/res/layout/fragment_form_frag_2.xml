@@ -1,0 +1,169 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="layout.form_frag_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20px"
+    android:background="@drawable/shape"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView6"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:text="@string/living_room_dining_room"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/dark_blue"
+        android:textSize="100px" />
+
+    <RadioGroup
+        android:id="@+id/radio_liv_din"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:id="@+id/liv_din_check1"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/dusty_baseboards"
+            android:textColor="@color/darkblue"
+            android:textColorLink="@color/light_blue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/liv_din_check2"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dusty Blinds"
+            android:textColor="@color/darkblue"
+            android:textColorLink="@color/light_blue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/liv_din_check3"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dusty Window sill"
+            android:textColor="@color/darkblue"
+            android:textColorLink="@color/light_blue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/liv_din_check4"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dirty/streaky window"
+            android:textColor="@color/darkblue"
+            android:textColorLink="@color/light_blue"
+            android:textSize="50px"
+
+
+            />
+
+        <CheckBox
+            android:id="@+id/liv_din_check5"
+            android:layout_width="match_parent"
+
+            android:layout_height="52dp"
+            android:text="Dusty/dirty air return vent"
+            android:textColor="@color/darkblue"
+            android:textColorLink="@color/light_blue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/liv_din_check6"
+            android:layout_width="match_parent"
+
+            android:layout_height="52dp"
+            android:text="@string/dirty_ceiling_vent_s"
+            android:textColor="@color/darkblue"
+            android:textColorLink="@color/light_blue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/liv_din_check7"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dusty ceiling/cob webs"
+            android:textColor="@color/darkblue"
+            android:textColorLink="@color/light_blue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/liv_din_check8"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dirty/dusty ceiling fan"
+            android:textColor="@color/darkblue"
+            android:textColorLink="@color/light_blue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/liv_din_check9"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dirty/Dusty Dinning room light fixture"
+            android:textColor="@color/darkblue"
+            android:textColorLink="@color/light_blue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/liv_din_check10"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/dirty_light_switch_and_or_outlet"
+            android:textColor="@color/darkblue"
+            android:textColorLink="@color/light_blue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/liv_din_check11"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dirty floors/not vacuumed in straight lines"
+            android:textColor="@color/darkblue"
+            android:textColorLink="@color/light_blue"
+            android:textSize="50px" />
+
+        <CheckBox
+            android:id="@+id/liv_din_check12"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Dusty furniture/dirt under couch cushions"
+            android:textColor="@color/darkblue"
+            android:textColorLink="@color/light_blue"
+            android:textSize="50px" />
+
+
+        <EditText
+            android:id="@+id/liv_din_edit1"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/others"
+            android:inputType="textPersonName"
+            android:textSize="50px" />
+
+
+    </RadioGroup>
+
+    <ToggleButton
+        android:id="@+id/liv_din_radio"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+
+        android:contentDescription="@string/no_touch_ups_needed"
+        android:text="@string/no_touch_ups_needed"
+        android:textColor="@color/darkblue"
+        android:textOff="Touch ups needed"
+        android:textOn="@string/no_touch_ups_needed"
+        android:textSize="50px"
+        tools:text="No touch ups needed" />
+
+</LinearLayout>
